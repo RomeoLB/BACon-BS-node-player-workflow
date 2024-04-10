@@ -19,11 +19,14 @@ Setup a simple Node.js Dev environment for generating a zip file to be published
 ## How to Publish a BACon presentation with a script plugin?
 
 
+1.	Download and unzip the “Simple_BACon_Node_pluginNodeApp.zip” file to a folder on your PC
+   
 [Simple_BACon_Node_pluginNodeApp.zip](https://github.com/RomeoLB/BACon-BS-node-player-workflow/files/14938485/Simple_BACon_Node_pluginNodeApp.zip)
 
-1.	Download and unzip the “Simple_BACon_Node_pluginNodeApp.zip” file to a folder on your PC
 1.	Launch BACon (Windows or Mac client) and open the exported presentation by going to File > Open, then navigate to the SimpleNodeAppPlugin.bpfx project file.
+
 1.	Once opened check that both the “pluginNodeApp.zip” file and the “Script plugin “node-app-plugin.brs” are properly linked in the presentation. If you have built a new “pluginNodeApp.zip” package, make sure that you set the path for your own pluginNodeApp.zip under “Files > pluginNodeApp.zip”
+
 1.	Publish the presentation to your test player.
 
    
