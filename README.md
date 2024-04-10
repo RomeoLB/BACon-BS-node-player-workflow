@@ -1,5 +1,5 @@
 # BACon-BS-node-player-workflow
-Setup a simple Node.js Dev environment for generating a zip file to be published to BA:Connected 
+Setup a simple Node.js Dev environment for generating a zip file to be published from BA:Connected 
 
 ## How to setup a VSCode Dev environment for node to generate a pluginNodeApp.zip to be used with a BACon presentation? 
 
@@ -7,12 +7,17 @@ Setup a simple Node.js Dev environment for generating a zip file to be published
    
    [NodeAppShareToTest.zip](https://github.com/RomeoLB/BACon-BS-node-player-workflow/files/14938698/NodeAppShareToTest.zip)
 
-* From the terminal in the folder where the zip file has been unzipped run "npm install”
+* From the terminal in the folder where the zip file has been unzipped run
+```bash
+  npm install
+```
 
 * From the src folder make some changes to the source code in index.js
 
-* Run the command "npx webpack --config webpack.config.js" to generate the "pluginNodeApp.zip" in the "dist" folder
-
+* Run the command below to generate the "pluginNodeApp.zip" in the "dist" folder
+```bash
+  npx webpack --config webpack.config.js" 
+```
 * The newly build  pluginNodeApp.zip can now be published to your player via BA by going to "Presentation Settings > Files > Navigate to the path where the pluginNodeApp.zip file has been generated in the "dist" folder.
 
 * Publish your presentation to deploy the latest pluginNodeApp.zip package
