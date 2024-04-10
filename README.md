@@ -5,6 +5,9 @@ Setup a simple Node.js Dev environment for generating a zip file to be published
 
 1. Unzip the file NodeAppShareToTest.zip
 
+   [NodeAppShareToTest.zip](https://github.com/RomeoLB/BACon-BS-node-player-workflow/files/14938698/NodeAppShareToTest.zip)
+
+
 1. from the terminal in the folder where the zip file has been unzipped run "npm install”
 
 1. from the src folder make some changes to the source code in index.js
