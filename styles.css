@@ -1,0 +1,11 @@
+/* styles.css */
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
